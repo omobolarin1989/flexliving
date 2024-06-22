@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 1% auto;
+    font-family: "Lato", sans-serif;
+}
+
+nav .logo img{
+    width: 110px;
+    height: 60px;
+}
+
+nav .navbar {
+    width: 35%;
+    font-family: "Lato", sans-serif;
+}
+
+nav .navbar img{
+    display: none;
+}
+
+nav .navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+nav .navbar .links a{
+    text-decoration: none;
+    color: #181918;
+    font-size: 16px;
+}
+
+main .landing{
+    background-image: url(../images/Image\ \(1\).png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    
+}
+
+main .landing .landing-txt{
+    background-color: #FFFFFF;
+    width: 35%;
+    padding: 4% 5%;
+    border-radius: 0 30px 30px 0;
+    margin-bottom: 10%;
+}
+
+main .landing .landing-txt .landing-header{
+    margin-bottom: 10%;
+    width: 90%;
+}
+
+main .landing .landing-txt .landing-header h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    
+}
+
+main .landing .landing-txt .landing-para p{
+    font-size: 15px;
+    width: 75%;
+}
+
+main .hero{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10% auto;
+}
+
+main .hero .hero-img{
+    width: 50%;
+    display: flex;
+}
+
+main .hero .hero-img .hero-img1, .hero-img2{
+    width: 50%;   
+}
+
+main .hero .hero-img .hero-img1 img{
+    width: 100%;
+}
+
+main .hero .hero-img .hero-img2 img{
+    width: 100%;
+}
+
+main .hero .hero-txt{
+    width: 50%;
+    border-radius: 0 40px 40px 0;
+    background-color: #F2F0F2;
+    padding: 10.3% 4.5%;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+}
+
+main .hero .hero-txt h1{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+main .hero .hero-txt p{
+    font-size: 18px;
+    width: 100%;
+}
+
+main .features{
+    font-family: "Lato", sans-serif;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+main .features .features-header{
+    text-align: center;
+    margin: auto ;
+    width: 35%;
+    
+
+}
+
+main .features .features-para{
+    text-align: center;
+    margin: auto ;
+    width: 67%;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+
+}
+
+main .features .feature-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1%;
+
+}
+
+main .feature-section .feature-col{
+    background-color: #E2F1E8;
+    border-radius: 20px;
+    width: 22%;
+    height: 30vh;
+}
+
+main .feature-section .feature-col .image{
+    margin: 6% 10%;
+}
+
+main .feature-section .feature-col .header{
+    margin: 0 10%;
+}
+
+main .feature-section .feature-col .para{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+main .feature-section .feature-col .para p{
+    font-size: 13px;
+    width: 65%;
+}
+
+
+@media screen and ( max-width: 1440px) {
+
+    nav .navbar .links a {
+        font-size: 20px;
+    }
+
+    main .landing {
+        background-position: center;
+        width: 100%;
+        
+    }
+
+    main .landing .landing-txt .landing-header h1 {
+        font-size: 50px;
+    }
+
+    main .landing .landing-txt .landing-para p {
+        font-size: 18px;
+        width: 85%;
+    }
+
+    main .landing .landing-txt {
+        margin-bottom: 20%;
+    }
+
+    main .features .features-header {
+        width: 40%;
+    }
+
+    main .features .features-para {
+        width: 80%;
+        font-size: 21px;
+    }
+
+    main .feature-section .feature-col {
+        height: 25vh;
+    }
+
+    main .feature-section .feature-col .header h3{
+        font-size: 27px;
+    }
+
+    main .feature-section .feature-col .para p {
+        font-size: 17px;
+        width: 85%;
+    }
+
+}
+
+@media screen and ( max-width: 1024px) {
+
+    
+
+    nav {
+        width: 90%;
+    }
+
+    main .landing .landing-txt {
+       
+        width: 50%;
+        padding: 9% 5%;
+        margin-bottom: 35%;
+    }
+
+    main .landing .landing-txt .landing-header h1 {
+        font-size: 30px;
+    }
+
+    main .landing .landing-txt .landing-para p {
+        font-size: 20px;
+        width: 82%;
+    }
+
+    main .hero .hero-txt p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    main .hero .hero-txt { 
+        padding: 8.4% 4.5%;
+    }
+
+    main .features .features-header {
+        width: 70%;
+    }
+
+    main .features .features-para p{
+        font-size: 18px;
+    }
+
+    main .feature-section .feature-col .image img{
+        width: 25%;
+    }
+
+    main .feature-section .feature-col .header h3 {
+        font-size: 19px;
+    }
+
+    main .feature-section .feature-col .para p {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    
+
+}
+
+@media screen and ( max-width: 768px) {
+
+    nav .logo{
+        width: 30%;
+    }
+    
+    nav .logo img {
+        width: 80px;
+        height: 40px;
+    }
+
+    nav .navbar {
+        width: 50%;
+        font-family: "Lato", sans-serif;
+    }
+
+    nav .navbar .links a {
+        font-size: 16px;
+    }
+    
+    main .landing .landing-txt .landing-header h1 {
+        font-size: 25px;
+    }
+
+    main .landing .landing-txt .landing-para p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    main .landing .landing-txt {
+        width: 50%;
+        padding: 5%;
+        margin-bottom: 35%;
+    }
+
+    main .hero .hero-txt h1 {
+        margin-bottom: 2%;
+        font-size: 28px;
+    }
+
+    main .hero .hero-txt p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    main .hero .hero-txt {
+        padding: 8.7% 4.5%;
+    }
+
+    main .features .features-header h1{
+        width: 90%;
+        margin: auto;
+        font-size: 27px;
+    }
+
+    main .features .features-para p {
+        font-size: 15px;
+    }
+
+    main .feature-section .feature-col .header h3 {
+        font-size: 14px;
+    }
+
+    main .feature-section .feature-col .para p {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+
+@media screen and ( max-width: 426px) {
+
+    nav .logo {
+        width: 100%;
+    }
+
+    nav .logo img {
+        height: 15%;
+        width: 50%;
+    }
+    
+    nav .navbar ul {
+        display: none;
+    }
+
+    nav .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    nav .navbar img{
+        display: block;
+        align-items: end;
+        width: 15%;
+    }
+
+    
+
+    main .landing {
+        background-size: cover;
+        height: 90vh;
+        align-items: self-start;
+        
+    }
+
+    main .landing .landing-txt {
+        width: 90%;
+        margin-top: 5%;
+        border-radius: 2px solid red;
+    }
+
+    main .landing .landing-txt .landing-header h1 {
+        font-size: 40px;
+    }
+
+    main .landing .landing-txt .landing-para {
+        width: 100%;
+    }
+
+    main .landing .landing-txt .landing-para p {
+         margin: 0;
+         width: 95%;
+         font-size: 19px;
+
+    }
+
+    main .hero {
+        width: 90%;
+        display: grid;
+
+    }
+
+    main .hero .hero-img {
+        width: 100%;
+        display: flex;
+    }
+
+    main .hero .hero-txt {
+            width: 100%;
+            border-radius: 0 0 20px 20px;
+        }
+
+        main .hero .hero-txt h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        main .hero .hero-txt p {
+            font-size: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        main .features .features-header {
+            width: 100%;
+        }
+
+        main .features .features-para p {
+            font-size: 17px;
+        }
+
+        main .features .features-para {
+            width: 100%;
+        }
+
+        main .features .feature-section {
+            width: 100%;
+            flex-direction: column;
+        
+        }
+
+        main .feature-section .feature-col {
+            width: 95%;
+            margin: 5%;
+           
+        }
+
+        main .feature-section .feature-col .image {
+            margin: 3% 10%;
+        }
+
+        main .feature-section .feature-col .image img {
+            width: 13%;
+        }
+
+        main .feature-section .feature-col .header h3 {
+            font-size: 25px;
+        }
+
+        main .feature-section .feature-col .para {
+            margin-top: 5%;
+        }
+
+        main .feature-section .feature-col .para p {
+            font-size: 14px;
+            width: 90%;
+        }
+
+}
+
+@media screen and ( max-width: 376px) {
+    main{
+        border: 2px solid darkred;
+    }
+
+    main .landing .landing-txt .landing-header {
+        margin-bottom: 10%;
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    main .landing .landing-txt .landing-header h1 {
+        font-size: 32px;
+        
+    }
+
+
+    main .landing .landing-txt .landing-para {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    main .landing .landing-txt .landing-para p {
+        margin: 0;
+        width: 93%;
+        font-size: 15px;
+       
+    }
+
+    
+    main .hero .hero-txt p {
+        font-size: 18px;
+    }
+
+    main .features .features-header h1 {
+        font-size: 24px;
+    }
+
+    main .features .features-para p {
+        font-size: 15px;
+    }
+
+    main .feature-section .feature-col .para p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    main .feature-section .feature-col .header h3 {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and ( max-width: 320px) {
+
+    main .landing .landing-txt .landing-header h1 {
+        font-size: 25px;
+    }
+
+    main .landing .landing-txt .landing-para p {
+        margin: 0;
+        width: 95%;
+        font-size: 13px;
+    }
+
+    main .feature-section .feature-col .para p {
+        width: 90%;
+        font-size: 15px;
+       
+    }
+
+    main .features .features-para p {
+        font-size: 13px;
+    }
+
+    main .hero .hero-txt p {
+        font-size: 15.5px;
+    }
+
+    main .features .features-header h1 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+   
+}
