@@ -495,9 +495,7 @@ main .feature-section .feature-col .para p{
 }
 
 @media screen and ( max-width: 376px) {
-    main{
-        border: 2px solid darkred;
-    }
+
 
     main .landing .landing-txt .landing-header {
         margin-bottom: 10%;
